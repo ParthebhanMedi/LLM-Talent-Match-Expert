@@ -8,7 +8,7 @@ api_key = st.secrets["auth_token"]
 genai.configure(api_key=api_key)
 
 # Function to load Gemini Pro model and get responses
-model = genai.GenerativeModel("gemini-1.5-pro-latest")
+model = genai.GenerativeModel("Gemini 2.0 Pro")
 
 def gemini_repsonse(input):
     model=genai.GenerativeModel('gemini-pro')
